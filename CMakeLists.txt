@@ -154,9 +154,6 @@ configure_file(${pdal_features_hpp_in} ${pdal_features_hpp})
 # subdirectory controls
 #------------------------------------------------------------------------------
 
-# PDAL_TARGET_OBJECTS is used to collect the driver object libraries
-set(PDAL_TARGET_OBJECTS "")
-
 if (WITH_TESTS)
     enable_testing()
 endif()
